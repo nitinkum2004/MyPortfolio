@@ -1004,3 +1004,70 @@ form {
     font-size: 3rem;
   }
 }
+
+.certi {
+  background-color: #4252a52f;
+  padding: 4rem 2rem;
+  margin-top: 2rem;
+}
+
+.certification-company {
+  object-fit: contain;
+  height: 10rem;
+  width: 15rem;
+  transition: all 1s;
+}
+
+.certification-company:hover {
+  scale: 1.2;
+}
+
+.certification-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.certi-b {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.certification-heading {
+  font-size: 3rem;
+  color: orangered;
+  font-weight: bold;
+}
+
+.certification-anime {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #4e45d5;
+}
+
+.cert-other {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.cert-other-heading {
+  font-size: 1.6rem;
+}
+
+.cert-other-block {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
