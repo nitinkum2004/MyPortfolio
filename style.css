@@ -1071,3 +1071,26 @@ form {
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 1300px) {
+  .certification-heading {
+    font-size: 2rem;
+  }
+  .certi {
+    padding: 1rem 2rem;
+  }
+  .certification-company {
+    height: 7rem;
+    width: 10rem;
+  }
+  .certification-anime {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .cert-other-heading {
+    font-size: 1.2rem;
+  }
+  .certification-section {
+    gap: 1rem;
+  }
+}
