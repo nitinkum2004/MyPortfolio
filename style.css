@@ -396,12 +396,15 @@ a {
 .project-skills-container {
   width: 60%;
   display: flex;
+  align-items: center;
   gap: 10px;
   flex-wrap: wrap;
 }
 
 .project-skill {
   width: 60px;
+  height: max-content;
+  object-fit: contain;
 }
 
 .project-heading {
@@ -468,6 +471,15 @@ a {
 #project4 {
   margin-left: 120px;
   background-image: url(img/project/stone-paper.png);
+}
+
+#project5 {
+  background-image: url(img/project/crm.png);
+}
+
+#project6 {
+  margin-left: 120px;
+  background-image: url(img/project/kavach.jpg);
 }
 
 @media (max-width: 1300px) {
