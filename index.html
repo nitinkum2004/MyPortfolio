@@ -1,418 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
     <link rel="shortcut icon" href="img/portfolio.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="wrapper">
-      <div class="container">
-        <div class="navbar">
-          <div class="logo-container">
-            <img src="img/firstLetter.png" alt="N" class="logo" />
-            <div class="logo-text">itin Kumawat</div>
-          </div>
-          <div class="nav-items">
-            <div class="nav-item nh">
-              <a href="#projects" class="nav-a">Projects</a>
-            </div>
-            <div class="nav-item nh">
-              <a href="#skills" class="nav-a">Skills</a>
-            </div>
-            <div class="nav-item nh">
-              <a href="#contact-me" class="nav-a">Contact me</a>
-            </div>
-            <div class="nav-item bt">
-              <button id="bt">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <img src="img/firstLetter.png" alt="N" class="logo" />
+                    <div class="logo-text">itin Kumawat</div>
+                </div>
+                <div class="nav-items">
+                    <div class="nav-item nh">
+                        <a href="#projects" class="nav-a">Projects</a>
+                    </div>
+                    <div class="nav-item nh">
+                        <a href="#skills" class="nav-a">Skills</a>
+                    </div>
+                    <div class="nav-item nh">
+                        <a href="#contact-me" class="nav-a">Contact me</a>
+                    </div>
+                    <div class="nav-item bt">
+                        <button id="bt">
                 <i class="fa-solid fa-bars menu"></i>
               </button>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="nav-over hhide">
-          <div class="nav-over-item">
-            <a href="#projects" class="nav-over-a">Projects</a>
-          </div>
-          <div class="nav-over-item">
-            <a href="#skills" class="nav-over-a">Skills</a>
-          </div>
-          <div class="nav-over-item">
-            <a href="#contact-me" class="nav-over-a">Contact me</a>
-          </div>
-        </div>
+            <div class="nav-over hhide">
+                <div class="nav-over-item">
+                    <a href="#projects" class="nav-over-a">Projects</a>
+                </div>
+                <div class="nav-over-item">
+                    <a href="#skills" class="nav-over-a">Skills</a>
+                </div>
+                <div class="nav-over-item">
+                    <a href="#contact-me" class="nav-over-a">Contact me</a>
+                </div>
+            </div>
 
-        <div class="hero-section">
-          <div class="fade-text">Nitin Kumawat</div>
-          <div class="hero-left">
-            <div class="hero-section-heading">Hi! Nitin Kumawat</div>
-            <div class="hero-section-heading hero-section-subheading">
-              I am a <span class="role"></span>
+            <div class="hero-section">
+                <div class="fade-text">Nitin Kumawat</div>
+                <div class="hero-left">
+                    <div class="hero-section-heading">Hi! Nitin Kumawat</div>
+                    <div class="hero-section-heading hero-section-subheading">
+                        I am a <span class="role"></span>
+                    </div>
+                    <div class="hero-section-desc">
+                        I'm a software developer and here is my portfolio website. Here you'will learn about my journey as a developer.
+                    </div>
+                    <div class="btn-red" id="btn">Hire me</div>
+                </div>
+                <div class="hero-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="img/dots.png" alt="" class="dots" />
+                    </div>
+                    <div class="absolute icons icon-cube">
+                        <img src="img/cu.png" alt="" class="cube" />
+                    </div>
+                    <div class="absolute icons icon-circle">
+                        <img src="img/circle.png" alt="" class="circle" />
+                    </div>
+                    <div class="absolute icons icon-zigzag">
+                        <img src="img/zigzag.png" alt="" class="zigzag" />
+                    </div>
+                    <div class="absolute icons icon-plus">
+                        <img src="img/plus.png" alt="" class="plus" />
+                    </div>
+                    <div class="my-img">
+                        <img src="img/myimg.jpg" alt="" class="myimg" />
+                    </div>
+                </div>
             </div>
-            <div class="hero-section-desc">
-              I'm a software developer and here is my portfolio website. Here
-              you'will learn about my journey as a developer.
-            </div>
-            <div class="btn-red" id="btn">Hire me</div>
-          </div>
-          <div class="hero-right">
-            <div class="absolute icons icon-dots">
-              <img src="img/dots.png" alt="" class="dots" />
-            </div>
-            <div class="absolute icons icon-cube">
-              <img src="img/cu.png" alt="" class="cube" />
-            </div>
-            <div class="absolute icons icon-circle">
-              <img src="img/circle.png" alt="" class="circle" />
-            </div>
-            <div class="absolute icons icon-zigzag">
-              <img src="img/zigzag.png" alt="" class="zigzag" />
-            </div>
-            <div class="absolute icons icon-plus">
-              <img src="img/plus.png" alt="" class="plus" />
-            </div>
-            <div class="my-img">
-              <img src="img/myimg.jpg" alt="" class="myimg" />
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="project-section" id="projects">
-        <h2 class="page-header">Projects</h2>
-        <div class="project-container">
-          <div class="project-card" id="project1">
-            <div class="project-number project-number-right">01</div>
-            <div class="project-content project-content-left">
-              <div class="project-skills-container">
-                <img
-                  src="img/progLangLogo/html.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/css.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/js.png"
-                  alt=""
-                  class="project-skill"
-                />
-              </div>
-              <h2 class="project-heading">My Portfolio</h2>
-              <div class="project-subheading">
-                I'm a software developer and here is my portfolio website. Here
-                you'will learn about my journey as a developer.
-              </div>
-              <div class="btn-group">
-                <button class="btn-red btn-project">Read More</button>
-                <a
-                  href="https://github.com/mr-nitin8000/MyPortfolio"
-                  class="project-a"
-                >
-                  <i
-                    title="GitHubLink"
-                    class="fa-brands fa-github github-ico ico"
-                  ></i>
-                </a>
-                <a
-                  href="https://mr-nitin8000.github.io/MyPortfolio/"
-                  class="project-a"
-                >
-                  <i
-                    title="Live Link"
-                    class="fa-solid fa-link link-ico ico"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="project-card" id="project2">
-            <div class="project-number project-number-left">02</div>
-            <div class="project-content project-content-right">
-              <div class="project-skills-container">
-                <img
-                  src="img/progLangLogo/html.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/css.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/js.png"
-                  alt=""
-                  class="project-skill"
-                />
-              </div>
-              <h2 class="project-heading">MyLearning</h2>
-              <div class="project-subheading">
-                My learning is a effective Frontend UI based project.
-              </div>
-              <div class="btn-group">
-                <button class="btn-red btn-project">Read More</button>
-                <a
-                  href="https://github.com/mr-nitin8000/MyLearning"
-                  class="project-a"
-                >
-                  <i
-                    title="GitHubLink"
-                    class="fa-brands fa-github github-ico ico"
-                  ></i>
-                </a>
-                <a
-                  href="https://mr-nitin8000.github.io/MyLearning/"
-                  class="project-a"
-                >
-                  <i
-                    title="Live Link"
-                    class="fa-solid fa-link link-ico ico"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="project-card" id="project3">
-            <div class="project-number project-number-right">03</div>
-            <div class="project-content project-content-left">
-              <div class="project-skills-container">
-                <img
-                  src="img/progLangLogo/html.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/css.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/js.png"
-                  alt=""
-                  class="project-skill"
-                />
-              </div>
-              <h2 class="project-heading">Tic-Tac-Toe</h2>
-              <div class="project-subheading">
-                Tic tac toe is the best practices game which makes strong my
-                concepts of Java script and Frontend.
-              </div>
-              <div class="btn-group">
-                <button class="btn-red btn-project">Read More</button>
-                <a
-                  href="https://github.com/mr-nitin8000/Tic-Tac-Toe"
-                  class="project-a"
-                >
-                  <i
-                    title="GitHubLink"
-                    class="fa-brands fa-github github-ico ico"
-                  ></i>
-                </a>
-                <a
-                  href="https://github.com/mr-nitin8000/Tic-Tac-Toe/deployments/github-pages"
-                  class="project-a"
-                >
-                  <i
-                    title="Live Link"
-                    class="fa-solid fa-link link-ico ico"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="project-card" id="project4">
-            <div class="project-number project-number-left">04</div>
-            <div class="project-content project-content-right">
-              <div class="project-skills-container">
-                <img
-                  src="img/progLangLogo/html.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/css.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/js.png"
-                  alt=""
-                  class="project-skill"
-                />
-              </div>
-              <h2 class="project-heading">Stone-Paper-Scissor</h2>
-              <div class="project-subheading">
-                Stone-Paper-Scissor is the basic project which help me to
-                understand the core Concept of DOM in javascript.
-              </div>
-              <div class="btn-group">
-                <button class="btn-red btn-project">Read More</button>
-                <a
-                  href="https://github.com/mr-nitin8000/StonePaperScissor"
-                  class="project-a"
-                >
-                  <i
-                    title="GitHubLink"
-                    class="fa-brands fa-github github-ico ico"
-                  ></i>
-                </a>
-                <a
-                  href="https://mr-nitin8000.github.io/StonePaperScissor/"
-                  class="project-a"
-                >
-                  <i
-                    title="Live Link"
-                    class="fa-solid fa-link link-ico ico"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
+        <div class="project-section" id="projects">
+            <h2 class="page-header">Projects</h2>
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img src="img/progLangLogo/html.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/css.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/js.png" alt="" class="project-skill" />
+                        </div>
+                        <h2 class="project-heading">My Portfolio</h2>
+                        <div class="project-subheading">
+                            I'm a software developer and here is my portfolio website. Here you'will learn about my journey as a developer.
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-red btn-project">Read More</button>
+                            <a href="https://github.com/mr-nitin8000/MyPortfolio" class="project-a">
+                                <i title="GitHubLink" class="fa-brands fa-github github-ico ico"></i>
+                            </a>
+                            <a href="https://mr-nitin8000.github.io/MyPortfolio/" class="project-a">
+                                <i title="Live Link" class="fa-solid fa-link link-ico ico"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img src="img/progLangLogo/html.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/css.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/js.png" alt="" class="project-skill" />
+                        </div>
+                        <h2 class="project-heading">MyLearning</h2>
+                        <div class="project-subheading">
+                            My learning is a effective Frontend UI based project.
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-red btn-project">Read More</button>
+                            <a href="https://github.com/mr-nitin8000/MyLearning" class="project-a">
+                                <i title="GitHubLink" class="fa-brands fa-github github-ico ico"></i>
+                            </a>
+                            <a href="https://mr-nitin8000.github.io/MyLearning/" class="project-a">
+                                <i title="Live Link" class="fa-solid fa-link link-ico ico"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img src="img/progLangLogo/html.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/css.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/js.png" alt="" class="project-skill" />
+                        </div>
+                        <h2 class="project-heading">Tic-Tac-Toe</h2>
+                        <div class="project-subheading">
+                            Tic tac toe is the best practices game which makes strong my concepts of Java script and Frontend.
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-red btn-project">Read More</button>
+                            <a href="https://github.com/mr-nitin8000/Tic-Tac-Toe" class="project-a">
+                                <i title="GitHubLink" class="fa-brands fa-github github-ico ico"></i>
+                            </a>
+                            <a href="https://github.com/mr-nitin8000/Tic-Tac-Toe/deployments/github-pages" class="project-a">
+                                <i title="Live Link" class="fa-solid fa-link link-ico ico"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img src="img/progLangLogo/html.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/css.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/js.png" alt="" class="project-skill" />
+                        </div>
+                        <h2 class="project-heading">Stone-Paper-Scissor</h2>
+                        <div class="project-subheading">
+                            Stone-Paper-Scissor is the basic project which help me to understand the core Concept of DOM in javascript.
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-red btn-project">Read More</button>
+                            <a href="https://github.com/mr-nitin8000/StonePaperScissor" class="project-a">
+                                <i title="GitHubLink" class="fa-brands fa-github github-ico ico"></i>
+                            </a>
+                            <a href="https://mr-nitin8000.github.io/StonePaperScissor/" class="project-a">
+                                <i title="Live Link" class="fa-solid fa-link link-ico ico"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-          <div class="project-card" id="project5">
-            <div class="project-number project-number-right">05</div>
-            <div class="project-content project-content-left">
-              <div class="project-skills-container">
-                <img
-                  src="img/progLangLogo/html.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/css.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/js.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/php.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/mysql.png"
-                  alt=""
-                  class="project-skill"
-                />
-              </div>
-              <h2 class="project-heading">General Insurance (CRM)</h2>
-              <div class="project-subheading">
-                Implement a GIC CRM system to enhance customer relationship
-                management for our general insurance business
-              </div>
-              <div class="btn-group">
-                <button class="btn-red btn-project">Read More</button>
-                <a
-                  href="https://github.com/mr-nitin8000/GIC-CRM"
-                  class="project-a"
-                >
-                  <i
-                    title="GitHubLink"
-                    class="fa-brands fa-github github-ico ico"
-                  ></i>
-                </a>
-                <a
-                  href="https://github.com/mr-nitin8000/GIC-CRM/blob/main/readme.md"
-                  class="project-a"
-                >
-                  <i
-                    title="Live Link"
-                    class="fa-solid fa-link link-ico ico"
-                  ></i>
-                </a>
-              </div>
+                <div class="project-card" id="project5">
+                    <div class="project-number project-number-right">05</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img src="img/progLangLogo/html.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/css.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/js.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/php.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/mysql.png" alt="" class="project-skill" />
+                        </div>
+                        <h2 class="project-heading">General Insurance (CRM)</h2>
+                        <div class="project-subheading">
+                            Implement a GIC CRM system to enhance customer relationship management for our general insurance business
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-red btn-project">Read More</button>
+                            <a href="https://github.com/mr-nitin8000/GIC-CRM" class="project-a">
+                                <i title="GitHubLink" class="fa-brands fa-github github-ico ico"></i>
+                            </a>
+                            <a href="https://github.com/mr-nitin8000/GIC-CRM/blob/main/readme.md" class="project-a">
+                                <i title="Live Link" class="fa-solid fa-link link-ico ico"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" id="project6">
+                    <div class="project-number project-number-left">06</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                            <img src="img/progLangLogo/flutter.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/dart.png" alt="" class="project-skill" />
+                            <img src="img/progLangLogo/android.png" alt="" class="project-skill" />
+                        </div>
+                        <h2 class="project-heading">
+                            Kavach: A Women Safety Application
+                        </h2>
+                        <div class="project-subheading">
+                            This app promotes the women safety and provide a safe secure environment for women's and girls so that they can feel free in there locality
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-red btn-project">Read More</button>
+                            <a href="https://github.com/mr-nitin8000/womenSafetyApplication" class="project-a">
+                                <i title="GitHubLink" class="fa-brands fa-github github-ico ico"></i>
+                            </a>
+                            <a href="https://github.com/mr-nitin8000/womenSafetyApplication" class="project-a">
+                                <i title="Live Link" class="fa-solid fa-link link-ico ico"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="project-card" id="project6">
-            <div class="project-number project-number-left">06</div>
-            <div class="project-content project-content-right">
-              <div class="project-skills-container">
-                <img
-                  src="img/progLangLogo/flutter.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/dart.png"
-                  alt=""
-                  class="project-skill"
-                />
-                <img
-                  src="img/progLangLogo/android.png"
-                  alt=""
-                  class="project-skill"
-                />
-              </div>
-              <h2 class="project-heading">
-                Kavach: A Women Safety Application
-              </h2>
-              <div class="project-subheading">
-                This app promotes the women safety and provide a safe secure
-                environment for women's and girls so that they can feel free in
-                there locality
-              </div>
-              <div class="btn-group">
-                <button class="btn-red btn-project">Read More</button>
-                <a
-                  href="https://github.com/mr-nitin8000/womenSafetyApplication"
-                  class="project-a"
-                >
-                  <i
-                    title="GitHubLink"
-                    class="fa-brands fa-github github-ico ico"
-                  ></i>
-                </a>
-                <a
-                  href="https://github.com/mr-nitin8000/womenSafetyApplication"
-                  class="project-a"
-                >
-                  <i
-                    title="Live Link"
-                    class="fa-solid fa-link link-ico ico"
-                  ></i>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="certi">
-        <div class="certification-section container">
-          <h1 class="certification-heading">Certification</h1>
-          <div class="certi-b">
-            <div class="certification-block">
-              <img
-                src="img/company/microsoft.png"
-                alt=""
-                class="certification-company"
-              />
-              <div class="certification-anime">
-                <span
-                  data-end-value="10"
-                  data-increment="1"
-                  data-duration="5000"
-                  class="anime"
-                  >0</span
+        <div class="certi">
+            <div class="certification-section container">
+                <h1 class="certification-heading">Certification</h1>
+                <div class="certi-b">
+                    <div class="certification-block">
+                        <img src="img/company/microsoft.png" alt="" class="certification-company" />
+                        <div class="certification-anime">
+                            <span data-end-value="10" data-increment="1" data-duration="5000" class="anime">0</span
                 >+
               </div>
             </div>
@@ -491,162 +321,122 @@
         <div class="skill-fade-text">Skills</div>
         <div class="skills-container-left">
           <h2 class="skill-heading">
-            <span class="caps">M</span>e and <br />
-            MyTech Stack
-          </h2>
-          <div class="skill-subHeading">
-            <p>
-              Flutter || Frontend Developer || Java || C & C++ programing ||
-              Canva || App Dev || 20+LinkedIn certification🎯|| 5+Udemy
-              certification🎯
-            </p>
-            <p>
-              Hi Everyone My name is Nitin Kumawat I am currently pursuing a
-              bachelor's degree in computer science from Poornima Institute of
-              Engineering and Technology. I have 2+ years of experience as a web
-              developer and intern, where I honed my skills in problem-solving,
-              design, and development. I am proficient in C, C++, HTML, CSS,
-              Canva, and Flutter, and I am always eager to learn new
-              technologies.
-            </p>
+            <span class="caps">M</span>e and <br /> MyTech Stack
+                            </h2>
+                            <div class="skill-subHeading">
+                                <p>
+                                    Flutter || Frontend Developer || Java || C & C++ programing || Canva || App Dev || 20+LinkedIn certification🎯|| 5+Udemy certification🎯
+                                </p>
+                                <p>
+                                    Hi Everyone My name is Nitin Kumawat I am currently pursuing a bachelor's degree in computer science from Poornima Institute of Engineering and Technology. I have 2+ years of experience as a web developer and intern, where I honed my skills in problem-solving,
+                                    design, and development. I am proficient in C, C++, HTML, CSS, Canva, and Flutter, and I am always eager to learn new technologies.
+                                </p>
 
-            <p>
-              I am passionate about creating intuitive and user-friendly mobile
-              experiences, and I am looking for an opportunity to contribute my
-              skills and creativity to a challenging role.
-            </p>
-          </div>
-        </div>
-        <div class="skills-container-right">
-          <img src="img/progLangLogo/back-png.png" alt="" class="blob-style" />
+                                <p>
+                                    I am passionate about creating intuitive and user-friendly mobile experiences, and I am looking for an opportunity to contribute my skills and creativity to a challenging role.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skills-container-right">
+                            <img src="img/progLangLogo/back-png.png" alt="" class="blob-style" />
 
-          <img src="img/progLangLogo/html.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/css.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/tailwind.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/js.png" alt="" class="skills-logo" />
-          <!-- <img src="img/progLangLogo/react.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/html.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/css.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/tailwind.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/js.png" alt="" class="skills-logo" />
+                            <!-- <img src="img/progLangLogo/react.png" alt="" class="skills-logo" />
           <img src="img/progLangLogo/mongodb.png" alt="" class="skills-logo" />
           <img src="img/progLangLogo/express.png" alt="" class="skills-logo" />
           <img src="img/progLangLogo/nodejs.png" alt="" class="skills-logo" /> -->
-          <img src="img/progLangLogo/android.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/flutter.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/dart.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/c++.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/python.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/java.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/bash.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/git.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/github.png" alt="" class="skills-logo" />
-          <img src="img/progLangLogo/mysql.png" alt="" class="skills-logo" />
-        </div>
-      </div>
+                            <img src="img/progLangLogo/android.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/flutter.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/dart.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/c++.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/python.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/java.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/bash.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/git.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/github.png" alt="" class="skills-logo" />
+                            <img src="img/progLangLogo/mysql.png" alt="" class="skills-logo" />
+                        </div>
+                    </div>
 
-      <div class="contactus-form-container" id="contact-me">
-        <div class="container ft">
-          <h1 class="contactus-heading">Contact Me</h1>
-          <h3 class="contactus-subheading">
-            Questions, thoughts, or just say hello?
-          </h3>
-          <div class="contactus-form">
-            <form action="#" class="form">
-              <div class="formfield-container">
-                <input
-                  type="text"
-                  class="formfield"
-                  name="name"
-                  id=""
-                  placeholder="Enter your name"
-                />
-                <input
-                  type="email"
-                  class="formfield"
-                  name="email"
-                  id=""
-                  placeholder="Enter your email address"
-                />
-                <input
-                  type="text"
-                  class="formfield"
-                  name="subject"
-                  id=""
-                  placeholder="Enter your subject"
-                />
-                <textarea
-                  name="textarea"
-                  id=""
-                  cols="30"
-                  rows="10"
-                  class="formfield formfield-textarea"
-                  placeholder="Enter your message"
-                ></textarea>
-              </div>
-              <div class="btnfield">
-                <button class="btn-red" id="submit-btn">
-                  Send Message
-                  <i class="submit-icon fa-solid fa-paper-plane"></i>
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
+                    <div class="contactus-form-container" id="contact-me">
+                        <div class="container ft">
+                            <h1 class="contactus-heading">Contact Me</h1>
+                            <h3 class="contactus-subheading">
+                                Questions, thoughts, or just say hello?
+                            </h3>
+                            <div class="contactus-form">
+                                <form action="https://api.web3forms.com/submit" method="POST" class="form">
+                                    <input type="hidden" name="access_key" value="0f3a85be-17ba-4062-a477-9935ed147532" />
+                                    <div class="formfield-container">
+                                        <input type="text" class="formfield" name="name" id="" placeholder="Enter your name" />
+                                        <input type="email" class="formfield" name="email" id="" placeholder="Enter your email address" />
+                                        <input type="text" class="formfield" name="subject" id="" placeholder="Enter your subject" />
+                                        <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea" placeholder="Enter your message"></textarea>
+                                    </div>
+                                    <div class="btnfield">
+                                        <input type="submit" value="Send Message" class="btn-red" id="submit-btn">
+                                        </input>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
 
-      <footer class="footer">
-        <div class="container">
-          <div class="footer-wrapper">
-            <div class="footer-faded-text">Nitin Kumawat</div>
-            <div class="link-wrapper">
-              <div>
-                <a href="#projects" class="link-wrapper-a">Project</a>
-              </div>
-              <div>
-                <a href="#skills" class="link-wrapper-a">Skills</a>
-              </div>
-              <div>
-                <a href="#contact-me" class="link-wrapper-a">Contact me</a>
-              </div>
-            </div>
-            <div class="icon-wrapper">
-              <a href="https://www.linkedin.com/in/nitin-kumawat-957160261/"
-                ><i class="fa-brands fa-linkedin icon"></i
+                    <footer class="footer">
+                        <div class="container">
+                            <div class="footer-wrapper">
+                                <div class="footer-faded-text">Nitin Kumawat</div>
+                                <div class="link-wrapper">
+                                    <div>
+                                        <a href="#projects" class="link-wrapper-a">Project</a>
+                                    </div>
+                                    <div>
+                                        <a href="#skills" class="link-wrapper-a">Skills</a>
+                                    </div>
+                                    <div>
+                                        <a href="#contact-me" class="link-wrapper-a">Contact me</a>
+                                    </div>
+                                </div>
+                                <div class="icon-wrapper">
+                                    <a href="https://www.linkedin.com/in/nitin-kumawat-957160261/"><i class="fa-brands fa-linkedin icon"></i
               ></a>
-              <a href="https://github.com/mr-nitin8000"
-                ><i class="fa-brands fa-github icon"></i
+                                    <a href="https://github.com/mr-nitin8000"><i class="fa-brands fa-github icon"></i
               ></a>
-              <!-- <a href=""><i class="fa-brands fa-twitter icon"></i></a> -->
-              <a
-                href="https://www.instagram.com/mr.luckyyy____?igsh=MTJ2djVpeWpmYTQwZg=="
-                ><i class="fa-brands fa-instagram icon"></i
+                                    <!-- <a href=""><i class="fa-brands fa-twitter icon"></i></a> -->
+                                    <a href="https://www.instagram.com/mr.luckyyy____?igsh=MTJ2djVpeWpmYTQwZg=="><i class="fa-brands fa-instagram icon"></i
               ></a>
-              <a href="mailto:nitin.kumawat.cs.8000@gmail.com"
-                ><i class="fa-regular fa-envelope"></i
+                                    <a href="mailto:nitin.kumawat.cs.8000@gmail.com"><i class="fa-regular fa-envelope"></i
               ></a>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="https://kit.fontawesome.com/58a810656e.js"></script>
-  <script>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://kit.fontawesome.com/58a810656e.js"></script>
+<script>
     var typeData = new Typed(".role", {
-      strings: [
-        "Full Stack Developer",
-        "Frontend Developer",
-        "Flutter Frontend",
-        "Graphics Designer",
-        "Software Engineer",
-      ],
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 80,
-      backDelay: 1000,
+        strings: [
+            "Full Stack Developer",
+            "Frontend Developer",
+            "Flutter Frontend",
+            "Graphics Designer",
+            "Software Engineer",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
     });
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
 
-  <script src="app.js"></script>
+<script src="app.js"></script>
+
 </html>
 
 <!-- 
